@@ -5,6 +5,8 @@ logging:
     org.springframework: DEBUG
 
 spring:
+  jpa:
+    show-sql: true
   messages:
     basename: messages
   security:
